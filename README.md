@@ -1,7 +1,13 @@
 # bt_crates
 Python creates roller for Battletech: The Loot Boxing
 
-## cmd
-python bt_lootbox_{version}.py --seed 'seed_text' --sequence 1 --nationality 'nation' --tables ./dir --audit --audit-limit num_of_lines
+## Useage
+Get [python](https://www.python.org/downloads/release/python-3123/) and install it. (This ran on Python 3.12.3)
 
-note: still working on --sequence
+Make sure your tables folder, with the `.csv` files, is in the same directory as the bt_lootbox.py script.
+
+Open a command terminal.
+
+Run `python bt_lootbox.py`
+
+note: wip still
