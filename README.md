@@ -6,7 +6,7 @@ Get [python](https://www.python.org/downloads/release/python-3123/) and install 
 
 Make sure your tables folder, with the `.csv` files, is in the same directory as the bt_lootbox.py script.
 
-Open a command terminal.
+Open a command terminal inside the folder containing the folder and script.
 
 Run `python bt_lootbox.py`
 
