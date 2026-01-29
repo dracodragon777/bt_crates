@@ -1,0 +1,12 @@
+Range,Number,Text
+02,1,"${Number} Streak SRM-2"
+03,1,"${Number} NARC Launcher"
+04,1d3,"${Number} SRM-2"
+05,1d6,"${Number} SRM-4"
+06,1d6,"${Number} SRM-6"
+07,1d3,"${Number} LRM-20"
+08,1d6,"${Number} LRM-15"
+09,1d6,"${Number} LRM-10"
+10,1d6,"${Number} LRM-5"
+11,4d6,"${Number} RL-10"
+12,1,"${Number} Arrow IV Missile Launcher"

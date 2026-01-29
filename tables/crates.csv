@@ -1,0 +1,101 @@
+Roll,Number,Text,GoTo
+00,3d6,"${Number} Double Heatsinks",-
+01,4000,"${Number} bottles of truly excellent wine",-
+02,1,"Standard Fusion Engine",T#03
+03,1,"Ballistic Weapons Crate",T#08
+04,1d6,"${Number} Military-Grade Target & Tracking Systems",-
+05,1,"Energy Weapons Crate",T#07
+06,1,"Ammunition Crate",T#10
+07,1,"Missile Weapons Crate",T#09
+08,3d6,"${Number} tons of Standard Armor plating",-
+09,1,"Combat Vehicle Chassis - stripped of components",T#05
+10,3d6,"${Number} Single Heatsinks",-
+11,1,"Energy Weapons Crate",T#07
+12,1,"Standard Fusion Engine",T#03
+13,1,"Missile Weapons Crate",T#09
+14,3d6,"${Number} tons of Ferro Fibrous Armor plating",-
+15,1,"Ballistic Weapons Crate",T#08
+16,1,"Ammunition Crate",T#10
+17,1,"One completely intact aerospace fighter in mint condition, fully armed and ready for use",T#06
+18,1,"A number of books and data disks",T#12
+19,4,"${Number} half-ton Jump Jets",-
+20,1d4,"One ${Number} ton 'Mech Gyro",-
+21,1,"One Mech's Left Arm fully armed and armoured",T#04
+22,1,"Two million H-Bills in non-sequential bills",T#01
+23,5,"${Number} tons each of Long Tom, Sniper and Thumper artillery shells",-
+24,1,"Ballistic Weapons Crate",T#08
+25,1,"Ammunition Crate",T#10
+26,3d6,"${Number} tons of Standard Armor plating",-
+27,1,"A number of books and data disks",T#12
+28,1,"Energy Weapons Crate",T#07
+29,3d6,"${Number} Single Heatsinks",-
+30,1,"Ballistic Weapons Crate",T#08
+31,1,"A computer core lablled 'Primary Neural Net, Caspar'",-
+32,1,"Standard Fusion Engine",T#03
+33,1,"Missile Weapons Crate",T#09
+34,1,"Ballistic Weapons Crate",T#08
+35,1,"Energy Weapons Crate",T#07
+36,1d6,"${Number} two-ton Jump Jets",-
+37,1,"One fully restored Combat Vehicle",T#05
+38,1,"Ballistic Weapons Crate",T#08
+39,1,"A box of moldy children's cereal. Contains a Quikscell Quality Control Officer badge (appears genuine)",-
+40,5d6,"${Number} tons of Industrial Armour plating",-
+41,3d6,"${Number} Single Heatsinks",-
+42,1,"Missile Weapons Crate",T#09
+43,4d6,"Assorted stolen jewelry and objects d'art (valued at ${Number} million C-bills if you could sell them legitimately)",-
+44,1,"One Combat Vehicle Chassis - stripped of components",T#05
+45,3d6,"${Number} tons of Standard Armor plating",-
+46,1,"Ammunition Crate",T#10
+47,1,"Energy Weapons Crate",T#07
+48,1,"${Number} Target Acquisition and Guidance system",-
+49,1,"A number of books and data disks",T#12
+50,1,"Ballistic Weapons Crate",T#08
+51,1,"A number of books and data disks",T#12
+52,3d6,"${Number} tons of Standard Armor plating",-
+53,1,"Half a million H-Bills in non-sequential bills",T#01
+54,1,"Energy Weapons Crate",T#07
+55,1,"Extra Light Fusion Engine",T#03
+56,1,"Ammunition Crate",T#10
+57,1,"One Mech's Left Arm fully armed and armoured",T#04
+58,1,"Missile Weapons Crate",T#09
+59,1d6,"${Number} Assorted Military-Grade Communication Systems",-
+60,1,"Missile Weapons Crate",T#09
+61,1,"Energy Weapons Crate",T#07
+62,1,"${Number} million H-Bills in non-sequential bills",T#01
+63,1200,"One Artemis IV Fire Control System and ${Number} compatible guidance heads that can be fitted to SRMs or LRMs",-
+64,1,"One Mech's Right Arm fully armed and armoured",T#04
+65,3d6,"${Number} tons of Standard Armor plating",-
+66,1,"Ammunition Crate",T#10
+67,1,"One reconditioned Lepoard-class dropship",-
+68,3d6,"${Number} Single Heatsinks",-
+69,1,"Energy Weapons Crate",T#07
+70,1d6,"${Number} one-ton Jump Jets",-
+71,1,"A number of books and data disks",T#12
+72,3d6,"${Number} tons of Swarm LRMs",-
+73,1,"One 'Mech Chassis - stripped of components",T#04
+74,3d6,"Assorted jewelry and objects d'art (valued at ${Number} hundred thousand C-bills if sold legitimately)",-
+75,1,"Ammunition Crate",T#10
+76,1d4,"One ${Number} ton 'Mech Gyro",-
+77,1,"${Number} Large Military Truck capable of carrying up to 70 tons of cargo",-
+78,1,"Ballistic Weapons Crate",T#08
+79,25,"${Number} tons of Germanium, a vital material for constructing jump-drives. Depending where you sell it, this could be worth upwards of ${Number*0.4} million C-bills.",-
+80,1,"A recorded HPG conversation of Minoru Kurita very grudgingly sharing SLDF deployment data with Stefan Amaris.",-
+81,1,"Missile Weapons Crate",T#09
+82,1,"One Mech's Right Arm fully armed and armoured",T#04
+83,1,"Standard Fusion Engine",T#03
+84,1,"A black box lablled 'K-0 Fax Machine'",-
+85,1,"Missile Weapons Crate",T#09
+86,1,"Ammunition Crate",T#10
+87,1,"One 'Mech Chassis - stripped of components",T#04
+88,1,"A datadisk with one heavily encrypted file titled Holy Shroud",-
+89,1,"One completely intact aerospace fighter in mint condition, fully armed and ready for use",T#06
+90,1,"The box is empty and a cat is living in it.",-
+91,1,"A single suit of Nighthawk Power Armor (Light)",-
+92,1,"One completely intact 'Mech in mint condition, fully armed and ready for use",T#04
+93,1,"One cryo capsule with occupant(s) who may or may not be alive.",T#11
+94,1,"A folder full of evidence of criminal activity by five nobles or government officials of the planet you're on and one regional noble or government official.",-
+95,1,"${Number} million C-Bills in non-sequential bills",-
+96,1,"One 'Mech Chassis - stripped of components",T#04
+97,1,"A 'portable' fifty-ton Hyperpulse Generator.",-
+98,3d6,"${Number} maps to potential lostech sites.",T#02
+99,1,"The complete rank and qualification badges of Aleksandr Kerensky as of 2780, with authentication certificate.",-

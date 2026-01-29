@@ -1,0 +1,31 @@
+Table,Option,Text,Extra
+Gender,Male,"This is the Inner Sphere where men are Men!",-
+Gender,Female,"And where women are Women!",-
+Gender,Small Furry Creature from Alpha Centauri,"No. Just… no.",-
+Age,Late Teens,"You are but a child, barely out of education (possibly still in it), so don't expect respect unless you earn it. One Life Experience.",-
+Age,Mid-Twenties,"You're getting started in life. Probably starting to get into trouble. You have two Life Experiences and one Problem.",-
+Age,Early Forties,"Still quite young, life expectancy is 150 years if stress, or violence doesn't kill ya! Three Life Experiences and two Problems!",-
+Nationality,Capellan Confederation,"According to their secret police, this is a fantastic place to live with enlightened and caring leaders. According to their secret police…","Borders [FS], [FWL] and [Periphery]"
+Nationality,Draconis Combine,"A cultured power intent on liberating all their neighbours from all that tedious freedom and prosperity; and then teach them to cosplay as Samurai.","Borders [FS], [DC] and [Periphery]."
+Nationality,Federated Suns,"A noble, if over-militarised, state intent on liberating all their neighbours. Mostly by shooting at them with autocannon.","Borders [CC], [DC] and [Periphery]."
+Nationality,Free Worlds League,"Democratic after a fashion: an alliance of provinces, mostly led by nobles, governed (barely) by the hereditary commander-in-chief.","Borders [CC], [LC] and [Periphery]."
+Nationality,Lyran Commonwealth,"Power corrupts, and wealth is a form of power. The Lyrans have lots of wealth and lots of corruption. Also lots of big 'Mechs.","Borders [CC], [FWL] and [Periphery]."
+Nationality,Periphery,"A smattering of small states, pirate bands and struggling colonies that cling to the edge of the Inner Sphere. You may choose a specific state.","Borders all five other nationalities."
+World,A National Capital,"The centre of political power for your home nation, likely a centre of economic and cultural power as well. It's easy to get a lot of attention, for good or ill.","When picking a specific ‘Mech, ASF or vehicle, you may take your choice of the 1-5 options for your nation."
+World,Regional Capital,"Not quite as important as the national capital but likely home to a lot of factional politics - also, it's a natural home for secessionist politicians.","When picking a specific ‘Mech, ASF or vehicle, you may freely choose the 1 value from any other nationality's sub- table."
+World,Industrial World,"On the one hand, likely to have a well-educated population and good infrastructure. But more often than not polluted and controlled by major corporations.","For one crate that contains weapons, you may double the number of weapons inside."
+World,Fought-Over Border World,"Your homeworld has changed hands more times than you can keep track. If it's not a full on invasion, someone's likely raiding for portable valuables… like a warehouse full of shinies?","Pick the nationality you border. If rolling for a specific 'Mech, etc you may roll their sub-table if you want."
+World,Interior Backwater,"You're a long way from anything important. So you're not a target, but... well, good luck getting anywhere. The next jumpship is due in six months, if it arrives.","You may reroll any duplicate numbers for crates, rerolling new duplicates generated too."
+World,Trade Hub,"All your homeworld has is location - it's a convenient place for jumpships travelling between a dozen important destinations to cross paths and exchange cargo.","Add 1d6 to the number of shipping crates you inherit. Roll their contents normally."
+Life Experience,Technical Education,"You've received some training in repairing and modifying the rare advanced technologies that keep war machines going.","You may apply a +2 modifier to up to two rolls."
+Life Experience,Military Academy,"You've attended one of the many institutions that turns out the elite officers that lead the armies of the great states.","You may apply a +1 modifier to up to two rolls."
+Life Experience,Warfare,"You may apply a +3 modifier to up to two rolls.","You may apply a -1 modifier to up to two rolls."
+Life Experience,Noble Upbringing,"You're from the 1% of the 1% in terms of background: the titled nobility of your home state. You were raised in luxury few enjoy.","You may apply a +3 modifier to up to two rolls."
+Life Experience,Criminal,"You've entered the underworld, breaking laws and social constraints for reasons that you no doubt believed were justifiable.","You may apply a -3 modifier to up to two rolls."
+Life Experience,Travel,"Most people don't leave their homeworlds, but you have seen dozens, all very different. Few people are so cosmopolitan.","You may apply a -2 modifier to up to two rolls."
+Problem,PTSD,"War is hell and you have seen it. Sometimes you can't not see it. If you weren't a soldier, you were caught in the wrong place and saw things no one ever should.",-
+Problem,Cancer,"While the Star League had cures for most types of cancer, this was a long time ago. You're not going to die soon, but you are dying. And right now, there's no known treatment.",-
+Problem,Transit Disporientation Syndrome,"K-F jumps affect you more than most people - expect every jump to cause severe nausea and disorientation. Rapidly repeated jumps make this much worse.",-
+Problem,In Debt to the Mob,"You owe someone money that you haven't previously been able to repay. Their calculations suggest that handing over your entire inheritance would cover it.",-
+Problem,Under Investigation,"Your government suspects you of treason. They don't have evidence yet but they are looking and will dig and dig until they find something - anything to justify their suspicions.",-
+Problem,Life-partner and 2.4 dependents,"You and your spouse are supporting three other people. Two are entirely dependent on you financially and for daily care, one is partially dependent on you.",-

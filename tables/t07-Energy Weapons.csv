@@ -1,0 +1,11 @@
+Range,Number,Text
+02,1,"${Number} Small Pulse Laser(s)"
+03,1,"${Number} Large Pulse Laser(s)"
+04,1,"${Number} Medium Pulse Laser(s)"
+05,1d3,"${Number} Flamer(s)"
+06,1d3,"${Number} Small Laser(s)"
+07,1d6,"${Number} Medium Laser(s)"
+08,1d6,"${Number} Large Laser(s)"
+09,1d6,"${Number} PPC(s)"
+10,1,"${Number} Extended Range Large Laser(s)"
+11,1,"${Number} ER PPC(s)"

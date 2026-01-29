@@ -1,0 +1,10 @@
+Range,Number,Text
+02-02,0,"Not something you wanted to find - an old SLDF bioweapon or the like. Try not to get infected."
+03-04,2d6,"Lucky you, there's ${Number} crates here. Unlucky you! A pirate group got there an hour before you."
+05-05,1d6,"A larger and more heavily armed group arrived right after you find 1d6 crates. Fight to keep them!"
+06-06,1,"Rival prospector arrived just before you and found ${Number} crate."
+07-07,0,"Someone else cleaned it out years ago."
+08-08,0,"A false trail, a wild goose chase and a waste of time."
+09-09,1,"You found ${Number} crate and no one is around to contest your possession of it."
+10-11,1d6,"You find ${Number} crates worth of goods, but someone is accusing you of war crimes in the area."
+12-12,0,"The Helm Find or something like it. Use some other CYOA or use your imagination."

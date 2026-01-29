@@ -1,0 +1,12 @@
+Range,Number,Text
+02,1,"${Number} Ultra AC/5"
+03,1,"${Number} Long Tom Artillery"
+04,2,"${Number} Sniper Artillery"
+05,3,"${Number} Thumper Artillery"
+06,1d6,"${Number} AC/10"
+07,1d6,"${Number} AC/5"
+08,1d6,"${Number} AC/20"
+09,1d6,"${Number} AC/2"
+10,1d3,"${Number} Machine Guns"
+11,1,"${Number} LB 10-X Autocannon"
+12,1,"${Number} Gauss Rifle"
