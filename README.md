@@ -13,3 +13,9 @@ Open a command terminal inside the folder containing the folder and script.
 Run `python bt_lootbox.py`
 
 note: wip still
+
+## Extras
+
+Run `python bt_lootbox.py --nationality 'Capellan Confederation'` to choose the Capellan Confederation.
+
+Valid values Capellan Confederation, Draconis Combine, Federated Suns, Free Worlds League, Lyran Commonwealth,& Periphery.
