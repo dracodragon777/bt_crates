@@ -18,4 +18,4 @@ note: wip still
 
 Run `python bt_lootbox.py --nationality 'Capellan Confederation'` to choose the Capellan Confederation.
 
-Valid values Capellan Confederation, Draconis Combine, Federated Suns, Free Worlds League, Lyran Commonwealth,& Periphery.
+Valid values `Capellan Confederation`, `Draconis Combine`, `Federated Suns`, `Free Worlds League`, `Lyran Commonwealth`, & `Periphery`.
