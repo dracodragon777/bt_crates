@@ -714,7 +714,7 @@ def build_gen_parser(ap: argparse.ArgumentParser) -> None:
     ap.add_argument("--seed", default=None, help="Base seed (string). If omitted, a random seed is generated.")
     ap.add_argument("--sequence", type=int, default=0, help="Sequence number: 0 for first pick, 1 for second, etc.")
     ap.add_argument("--sets", type=int, default=1, help="Generate N runs: sequences 0..N-1 (ignores --sequence if N>1).")
-    ap.add_argument("--nationality", default="Federated Suns", choices=NATIONALITIES, help="Used for unit sub-tables (#4/#5/#6).")
+    ap.add_argument("--nationality", default=None, choices=NATIONALITIES, help="Used for unit sub-tables (#4/#5/#6).")
     ap.add_argument("--tables", default="tables", help="Path to the tables directory (default: ./tables).")
     ap.add_argument("--reroll-config", default=None, help="Path to reroll.csv (default: <tables>/reroll.csv).")
     ap.add_argument("--max-crates", type=int, default=2000, help="Safety limit to avoid runaway recursion (lostech maps).")
@@ -739,7 +739,7 @@ def build_find_parser(ap: argparse.ArgumentParser) -> None:
     ap.add_argument("--must", action="append", default=[], help="Requirement, e.g. '11', '11:7', 'T#12:2-4', 'CRATE:0-10'. Can repeat.")
     ap.add_argument("--seq-min", type=int, default=0, help="Minimum sequence to test (inclusive).")
     ap.add_argument("--seq-max", type=int, default=0, help="Maximum sequence to test (inclusive).")
-    ap.add_argument("--nationality", default="Federated Suns", choices=NATIONALITIES, help="Nationality used (unless --any-nationality).")
+    ap.add_argument("--nationality", default=None, choices=NATIONALITIES, help="Nationality used (unless --any-nationality).")
     ap.add_argument("--any-nationality", action="store_true", help="Test all nationalities (useful if criteria depend on unit results).")
     ap.add_argument("--tables", default="tables", help="Path to the tables directory (default: ./tables).")
     ap.add_argument("--reroll-config", default=None, help="Path to reroll.csv (default: <tables>/reroll.csv).")
@@ -768,6 +768,11 @@ def main(argv: Optional[List[str]] = None) -> int:
         alphabet = ALPHABET_PRESETS["base62"]
         args.seed = "".join(secrets.choice(alphabet) for _ in range(12))
 
+    if not args.nationality:
+        # deterministic default nationality from seed
+        idx = stable_int_seed(args.seed) % len(NATIONALITIES)
+        args.nationality = NATIONALITIES[idx]
+  
     gen = LootBoxGenerator(args.tables, reroll_config=args.reroll_config)
     sequences = list(range(args.sets)) if args.sets > 1 else [args.sequence]
 
